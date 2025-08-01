@@ -1,0 +1,13 @@
+### get all chat messages
+GET http://localhost:5000/messages
+Content-Type: application/json
+
+### send a new message (simulating a POST request)
+POST http://localhost:5000/messages
+Content-Type: application/json
+
+{
+    "username": "ALice",
+    "message": "Hello from HTTP test!"
+
+}
